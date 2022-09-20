@@ -1,0 +1,16 @@
+:root {
+  --gray1: #1e293b;
+  --gray2: #0f172a;
+  --gray3: #64748b;
+  --text: #94a3b8;
+}
+
+.app div {
+  /* border: 1px solid var(--gray3); */
+}
+
+/* EL TEU CODI AQUI */
+
+.app {
+  display: grid;
+}

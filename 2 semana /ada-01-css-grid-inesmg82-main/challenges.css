@@ -1,0 +1,68 @@
+/* Estils per les caixes */
+.box {
+  color: white;
+  background-color: #4fbf90;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Els exercisis comencen aqui. El codi de sobre és només per donar un aspecte inicial a les caixes */
+
+/* EL TEU CODI AQUÍ */
+
+/* EXERCICI 1 */
+.container.ex1 {
+  border: 2px solid #1e293b;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(9, 50px);
+
+  /* Fes que la grid tingui 10 colunes. Les columnes parells ocupen el doble d'espai lliure que les senars */
+
+  /* Fes que la grid tingui 9 files explícites, de 50px cadascuna*/
+}
+
+/* box 1: comença a la columna 3 i acaba a la 5 */
+.box1 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+/* box 2: comença a la columna 5 i va fins al final */
+.box2 {
+  grid-column-start: 5;
+  grid-column-end: 11;
+}
+
+/* box 5: ocupa 2 files i 2 columnes */
+.box5 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+}
+
+/* box 8: ocupa 2 files */
+.box8 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+
+  /* box 15: ocupa tota l'amplada del grid */
+  .box15 {
+    grid-area: 1/6/span 1/span 10;
+
+  } 
+
+  /* box 18: ocupa 4 columnes, acaba a la 9 */
+  .box18 {}
+
+  /* box 20: comença a la fila 4 i n'ocupa 3 */
+  .box20 {}
