@@ -1,0 +1,49 @@
+h1 {
+    color: white
+}
+
+
+header {
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.muestrafilms{
+    margin: 20px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    width: 300px;
+    float:left;
+    display: inline
+}
+
+.muestrafilms h3 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+#formulari{
+align-items: left;
+}
+
+#bannerpromo {
+    background-color: rgb(171, 19, 19);
+    border: 30px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+#bannerpromo h4{
+    color: aliceblue;
+}
