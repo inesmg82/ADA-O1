@@ -57,12 +57,19 @@
 
   /* box 15: ocupa tota l'amplada del grid */
   .box15 {
-    grid-area: 1/6/span 1/span 10;
+    grid-column-start: 1;
+    grid-column-end: 11;
 
   } 
 
   /* box 18: ocupa 4 columnes, acaba a la 9 */
-  .box18 {}
+  .box18 {
+    grid-column-start:5;
+    grid-column-end: 9;
+  }
 
   /* box 20: comença a la fila 4 i n'ocupa 3 */
-  .box20 {}
+  .box20 {
+    grid-column-start: 1;
+    grid-row: 4/span3;
+  }
