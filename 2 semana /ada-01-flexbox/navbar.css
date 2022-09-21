@@ -1,0 +1,41 @@
+/* ESTILS BÀSICS */
+
+a {
+  color: #475569;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: #cbd5e1;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+  background-color: #64748b;
+  color: white;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* EL TEU CODI AQUÍ */
+
+/* Flex Container */
+.flex-container {
+  border: 2px solid white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+}
+
+@media all and (max-width: 640px) {
+}

@@ -1,0 +1,283 @@
+/* Some default styles to make each box visible */
+.box {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+
+/* Colours for each box */
+.box1 {
+  background: #14b8a6;
+}
+.box2 {
+  background: #64748b;
+}
+.box3 {
+  background: #ca8a04;
+}
+.box4 {
+  background: #a855f7;
+}
+.box5 {
+  background: #f87171;
+}
+.box6 {
+  background: #0284c7;
+}
+.box7 {
+  background: #db2777;
+}
+.box8 {
+  background: #059669;
+}
+.box9 {
+  background: #2ecc71;
+}
+.box10 {
+  background: #16a085;
+}
+
+/* Els exercisis comencen aqui. El codi de sobre és només per donar un aspecte inicial a les caixes */
+
+/* EL TEU CODI AQUÍ */
+
+/* EXERCICI 1 */
+.container.ex1 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-direction: row;
+}
+.ex1 .box {
+}
+
+/* EXERCICI 2 */
+.container.ex2 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-direction:row-reverse;
+}
+.ex2 .box {
+}
+
+/* EXERCICI 3 */
+.container.ex3 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-direction: column-reverse;
+}
+.ex3 .box {
+}
+
+/* EXERCICI 4 */
+.container.ex4 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.ex4 .box {
+  width: 200px;
+}
+
+/* EXERCICI 5 */
+.container.ex5 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.ex5 .box.6 {
+  width: 200px;
+  order:1;
+}
+
+
+/* EXERCICI 6 */
+.container.ex6 {
+  height: 100%;
+  border: 2px solid #1e293b;
+  display:flex;
+  flex-wrap: wrap;
+}
+.ex6 .box {
+width: 200px;
+}
+
+.box-6{
+  order:1;
+}
+
+/* EXERCICI 7 */
+.container.ex7 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex7 .box {
+}
+
+/* EXERCICI 8 */
+.container.ex8 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex8 .box {
+}
+
+.ex8 .box3 {
+}
+
+/* EXERCICI 9 */
+.container.ex9 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex9 .box {
+}
+
+/* EXERCICI 10 */
+.container.ex10 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex10 .box {
+}
+
+/* EXERCICI 11 */
+.container.ex11 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex11 .box {
+}
+
+/* EXERCICI 12 */
+.container.ex12 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex12 .box {
+}
+
+/* EXERCICI 13 */
+.container.ex13 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex13 .box {
+}
+
+/* EXERCICI 14 */
+.container.ex14 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex14 .box {
+}
+
+/* EXERCICI 15 */
+.container.ex15 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex15 .box {
+}
+
+/* EXERCICI 16 */
+.container.ex16 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex16 .box {
+}
+
+/* EXERCICI 17 */
+.container.ex17 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex17 .box {
+}
+
+/* EXERCICI 18 */
+.container.ex18 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex18 .box {
+}
+
+/* EXERCICI 19 */
+.container.ex19 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex19 .box {
+}
+
+/* EXERCICI 20 */
+.container.ex20 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex20 .box {
+}
+
+/* EXERCICI 21 */
+.container.ex21 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex21 .box {
+}
+
+.ex21 .box3 {
+}
+
+.ex21 .box2 {
+}
+
+/* EXERCICI 22 */
+.container.ex22 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex22 .box {
+}
+
+/* EXERCICI 23 */
+.container.ex23 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex23 .box {
+}
+
+.ex23 .box3 {
+}
+
+/* EXERCICI 24 */
+.container.ex24 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex24 .box {
+}
+
+.ex24 .box3 {
+}
+
+/* EXERCICI 25 */
+.container.ex25 {
+  height: 100%;
+  border: 2px solid #1e293b;
+}
+.ex25 .box {
+}
