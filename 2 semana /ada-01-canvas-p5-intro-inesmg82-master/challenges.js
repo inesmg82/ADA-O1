@@ -8,12 +8,13 @@ function setup() {
 
 // Exercici 1
 function draw() {
-  let c = color(255, 204, 0);
+
+  background('#00BCD4');
+  rectMode (CENTER);
   stroke('red');
   strokeWeight(6);
-  background('#00BCD4');
-  rect(150, 140, 100);
-    
+  rect(200, 200, 100);
+  
 }
 
 // Exercici 2
