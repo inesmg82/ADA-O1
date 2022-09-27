@@ -36,7 +36,7 @@ No canviïs l'objecte original sino que
 reassigna el valor de "name". Si ho fas correctament,
 la següent frase hauria d'imprimir "true".
 ------------------*/
-
+/*
 const person = {
   name: "Sofia",
   age: 20,
@@ -55,7 +55,7 @@ console.log("The person's name has been updated:" + (person.name === "Marco"));
 Arregla el següent codi per què imprimeixi
 el que s'espera!
 ------------------*/
-
+/*
 const book = {
   isbn: "9781593275846",
   title: "Eloquent JavaScript, Second Edition",
@@ -69,7 +69,7 @@ const book = {
   website: "http://eloquentjavascript.net/",
 };
 
-// console.log("The book ", book, " was written by ", author, " and is ", pages, "pages.");
+console.log("The book" + book.title + "was written by" + book.author + "and is" + book.pages + "pages.");
 
 /*------------------
 5)
@@ -86,7 +86,20 @@ Emplena la declaració de sota. A partir d'ara, als console.logs alternarem entr
 "template literals" i "quotations".
 ------------------*/
 
-// console.log(`The book ${book.title} was written by ${} and is ${} pages.`);
+const book = {
+  isbn: "9781593275846",
+  title: "Eloquent JavaScript, Second Edition",
+  subtitle: "A Modern Introduction to Programming",
+  author: "Marijn Haverbeke",
+  published: "2014-12-14T00:00:00.000Z",
+  publisher: "No Starch Press",
+  pages: 472,
+  description:
+    "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.",
+  website: "http://eloquentjavascript.net/",
+};
+
+console.log(`The book ${book.title} was written by ${} and is ${} pages.`);
 
 /*------------------
 6)
@@ -95,7 +108,7 @@ el que s'espera! Pots fer servir la "dot notation"
 o la "bracket notation" - revisa les slides si
 has oblidat com accedir als valors dels "nested objects".
 ------------------*/
-
+/*
 const user = {
   id: 101,
   email: "sofia@dev.com",
