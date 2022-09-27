@@ -7,7 +7,7 @@ function setup() {
 }
 
 // Exercici 1
-/*
+
 function draw() {
     if (mouseX > 300) {
         background (255, 0, 0);
@@ -16,9 +16,8 @@ function draw() {
         }
     }
     
-*/
-
 /*
+
 // Exercici 2
 function draw() {
     if (mouseX > 300) {
@@ -34,9 +33,10 @@ function draw() {
     }
 }
 
-*/
+
 
 // Exercici 3
+
 function draw() {
     background(255, 0, 0);
     rectMode(CENTER);
