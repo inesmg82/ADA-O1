@@ -39,9 +39,11 @@ frase real.
 
 // el teu array aquí
 
-let features = ["motor", "embrague","caja de cambios", "volante"];
+const features = ["motor", "embrague","caja de cambios", "volante"];
 
-for (let i = 0; i < features.length; i++)
+for (let i = 0; i < features.length; i++) {
+  console.log(features[i]);
+}
 
 const carFeatures = "The features of the car are: ";
 
