@@ -85,7 +85,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
 Emplena la declaració de sota. A partir d'ara, als console.logs alternarem entre
 "template literals" i "quotations".
 ------------------*/
-
+/*
 const book = {
   isbn: "9781593275846",
   title: "Eloquent JavaScript, Second Edition",
@@ -123,7 +123,7 @@ const user = {
   },
 };
 
-// console.log(`${name} lives at ${line1} ${line2}, ${city}, ${country}.`);
+console.log(`${user.personalInfo.name} lives at ${user.personalInfo.address.line1} ${user.personalInfo.address.line2}, ${user.personalInfo.address.city}, ${user.personalInfo.address.country}.`);
 
 /*------------------
 7)
@@ -134,7 +134,21 @@ El nou email hauria de ser "sofia@prod.com"
 i la nova ciutat hauria de ser "Madrid".
 ------------------*/
 
-// console.log("The person's name has been updated:", (user.email === "sofia@prod.com") && (user.personalInfo.address.city === "Madrid"));
+const user = {
+  id: 101,
+  email: "sofia@dev.com",
+  personalInfo: {
+    name: "Sofia",
+    address: {
+      line1: "Carrer de CodeOp",
+      line2: "42",
+      city: "Barcelona",
+      country: "Spain",
+    },
+  },
+};
+
+console.log("The person's name has been updated:", (user.email === "sofia@prod.com") && (user.personalInfo.address.city === "Madrid"));
 
 /*------------------
 8)
