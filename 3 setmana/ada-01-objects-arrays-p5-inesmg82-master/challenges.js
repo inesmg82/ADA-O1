@@ -69,7 +69,7 @@ const book = {
   website: "http://eloquentjavascript.net/",
 };
 
-console.log("The book" + book.title + "was written by" + book.author + "and is" + book.pages + "pages.");
+console.log("The book" , book.title , "was written by" , book.author , "and is" , book.pages , "pages.");
 
 /*------------------
 5)
@@ -99,7 +99,7 @@ const book = {
   website: "http://eloquentjavascript.net/",
 };
 
-console.log(`The book ${book.title} was written by ${} and is ${} pages.`);
+console.log(`The book ${book.title} was written by ${book.author} and is ${book.pages} pages.`);
 
 /*------------------
 6)
