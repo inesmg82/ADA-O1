@@ -6,33 +6,44 @@ de "x" multiplicat per tres.
 */
 
 
-console.log(triple(5));
+//console.log(triple(5));
 
-function triple(x) {
-  return (x * 3);
+//function triple(x) {
+//  return (x * 3);
+//}
+
+//2)
+//Crea una funció anomenada "subtract" que
+//rebi dos paràmetres i que retorni el resultat
+//de la resta del primer menys el segon.
+
+
+//console.log(subtract(5, 2)); // 3
+//console.log(subtract(1, 3)); // -2
+
+//function subtract(x,y) {
+//  return (x-y);
+//}
+
+
+
+//3)
+//Crea una funció anomenada "createArray" que
+//rebi tres arguments i retorni tots tres
+//arguments dins un array.
+
+
+//Test case:
+console.log(createArray(3, "a", true)); // [3, "a", true]
+
+function createArray {
+  let item1 = 3;
+  let item2 = "a";
+  let item3 = true;
+  let tot = (item1 + item2 + item3);
+  return tot;
 }
 
-/*
-2)
-Crea una funció anomenada "subtract" que
-rebi dos paràmetres i que retorni el resultat
-de la resta del primer menys el segon.
-
-
-function subtract(x,x) {
-
-// console.log(subtract(5, 2)); // 3
-// console.log(subtract(1, 3)); // -2
-
-/*
-3)
-Crea una funció anomenada "createArray" que
-rebi tres arguments i retorni tots tres
-arguments dins un array.
-
-Test case:
-console.log(createArray(3, "a", true)); // [3, "a", true]
-*/
 
 /*
 4)
