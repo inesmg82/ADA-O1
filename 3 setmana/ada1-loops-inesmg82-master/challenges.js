@@ -30,11 +30,10 @@ while (count <= 100) {
 Crea un loop que compti de 100 fins a 0.
 ------------------*/
 /*
-let count = 99;
-while (count <= 1) {
+let count = 100;
+while (count >= 0) {
   console.log(count);
-  count++;
-  break;
+  count--;
 }
 
 /*------------------
