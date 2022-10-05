@@ -8,7 +8,7 @@ h1 {
 }
 
 header {
-    background-color: black;
+    background-image: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
     padding: 50px;
@@ -63,10 +63,6 @@ select {
 }
 
 
-input[type=submit]:hover {
-    background-color: #256D85;
-}
-
 div {
     border-radius: 5px;
     padding: 20px;
@@ -74,16 +70,24 @@ div {
 
 button {
     width: 100%;
-    background-color: #2192FF;
+    background-color: #31C6D4;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
+    transition-duration: 0.4s;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #1a858f;
+}
+
 
 #card {
     margin: 5px;
     float:left;
+    width: 500px;
+    border-bottom: 400px;
 }
